@@ -15,6 +15,10 @@
 
 `git clone --recursive {{remote_repository_location}}`
 
+- Clone `.git` only of an existing repository:
+
+`git clone --no-checkout {{remote_repository_location}}`
+
 - Clone a local repository:
 
 `git clone -l {{path/to/local/repository}}`
